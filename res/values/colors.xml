@@ -1,0 +1,12 @@
+<resources>
+    <color name="top_item">#a6c</color>
+    <color name="sticky_item">#f44</color>
+    <color name="sticky_item_text">#fff</color>
+    
+    <color name="actionbar_separator">#8B1A1A</color>
+    <color name="actionbar_title">#FFFFFF</color>
+    <color name="actionbar_background_start">#8B1A1A</color>
+    <color name="actionbar_background_end">#CD2626</color>
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+</resources>

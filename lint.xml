@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="MangledCRLF">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/fragment_tabs.xml" />
+        <ignore path="res/layout/fragment_tabs2.xml" />
+        <ignore path="res/layout/new_bottom_bar.xml" />
+        <ignore path="src/com/lq/tabfragmenttest/MainActivity.java" />
+        <ignore path="src/com/lq/tabfragmenttest/fragment/Tab1Fragment.java" />
+    </issue>
+    <issue id="Orientation">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/fragment_tabs.xml" />
+    </issue>
+</lint>

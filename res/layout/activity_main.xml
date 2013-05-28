@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_bright" >
+    </LinearLayout>
+
+    <com.lq.tabfragmenttest.customview.NewHomeTopBar
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+    </com.lq.tabfragmenttest.customview.NewHomeTopBar>
+
+    <RelativeLayout
+        android:id="@+id/content_base"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" >
+
+        <fragment
+            android:id="@+id/main_fragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            class="com.lq.tabfragmenttest.fragment.Tab1Fragment" />
+<!-- 
+        <include
+            android:id="@+id/new_bottom_bar"
+            layout="@layout/new_bottom_bar" >
+        </include>
+ -->
+    </RelativeLayout>
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/hello_world"
+        android:visibility="gone" />
+    <com.lq.tabfragmenttest.fragment.TabFragment
+        android:id="@+id/base_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.lq.tabfragmenttest.fragment.TabFragment>
+     
+    <ListFragment
+            android:id="@+id/base_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.lq.tabfragmenttest.fragment.DefaultFragment" />    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_dark" >
+    </LinearLayout>
+    -->
+
+</LinearLayout>
